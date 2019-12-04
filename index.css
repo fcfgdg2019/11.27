@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.Photos{
+  display: flex;
+  margin-top: 48px;
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2000px;
+  background-color: skyblue;
+}
+.Photos .first{
+  margin-left: 24px;
+  flex: 1;
+  height: 600px;
+  background-color: green;
+  float: left;
+}
+.Photos .first .f-box1{
+  width: 100%;
+  margin-bottom: 24px;
+  height: 440px;
+  background-color: black;
+  position: relative;
+}
+.Photos .first .f-box1 .instuction{
+  position: absolute;
+  bottom: 30px;
+  height: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px 0 20px;
+  width: 376px;
+}
+.Photos .first .f-box1 .instuction img{
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+.Photos .first .f-box1 .instuction .inst{
+  position: absolute;
+  top: -4px;
+  left: 60px;
+  height: 44px;
+}
+.Photos .first .f-box1 .instuction .top{
+  opacity: 0.8;
+  font-size: 14px;
+}
+.Photos .first .f-box1 .instuction .bottom{
+  opacity: 0.8;
+  font-size: 12px;
+  position: absolute;
+  top: 22px;
+  left: 0px;
+  width: 200px;
+}
+.Photos .first .f-box2{
+  width: 100%;
+  margin-bottom: 24px;
+  height: 290px;
+  background-color: white;
+}
+.Photos .first .f-box3{
+  width: 100%;
+  margin-bottom: 24px;
+  height: 540px;
+  background-color: yellow;
+}
+.Photos .second{
+  margin-left: 24px;
+  flex: 1;
+  height: 600px;
+  background-color: yellow;
+  float: left;
+}
+.Photos .second .s-box1{
+  width: 100%;
+  margin-bottom: 24px;
+  height: 650px;
+  background-color: black;
+}
+.Photos .second .s-box2{
+  width: 100%;
+  margin-bottom: 24px;
+  height: 290px;
+  background-color: white;
+}
+.Photos .second .s-box3{
+  width: 100%;
+  margin-bottom: 24px;
+  height: 290px;
+  background-color: yellow;
+}
+.Photos .third{
+  margin-left: 24px;
+  flex: 1;
+  height: 600px;
+  background-color: greenyellow;
+  float: left;
+}
+.Photos .third .t-box1{
+  width: 100%;
+  margin-bottom: 24px;
+  height: 250px;
+  background-color: black;
+}
+.Photos .third .t-box2{
+  width: 100%;
+  margin-bottom: 24px;
+  height: 650px;
+  background-color: white;
+}
+.Photos .third .t-box3{
+  width: 100%;
+  margin-bottom: 24px;
+  height: 380px;
+  background-color: yellow;
+}
